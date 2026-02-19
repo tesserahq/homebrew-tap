@@ -1,16 +1,16 @@
 class Floppy < Formula
   desc "Floppy service orchestration CLI"
   homepage "https://github.com/tesserahq/floppy-go"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tesserahq/floppy-go/releases/download/v0.1.7/floppy-darwin-arm64.tar.gz"
-      sha256 "b14845099747a97b3145e5c544dca0d276658e2ff8b20d0bcc500474a473007b"
+      url "https://github.com/tesserahq/floppy-go/releases/download/v0.1.8/floppy-darwin-arm64.tar.gz"
+      sha256 "adf1ef9698fd81993f3ecc671dbbf79d1de9728aa29e5b61e80ac347504ed02c"
     else
-      url "https://github.com/tesserahq/floppy-go/releases/download/v0.1.7/floppy-darwin-amd64.tar.gz"
-      sha256 "b14845099747a97b3145e5c544dca0d276658e2ff8b20d0bcc500474a473007b"
+      url "https://github.com/tesserahq/floppy-go/releases/download/v0.1.8/floppy-darwin-amd64.tar.gz"
+      sha256 "adf1ef9698fd81993f3ecc671dbbf79d1de9728aa29e5b61e80ac347504ed02c"
     end
   end
 
